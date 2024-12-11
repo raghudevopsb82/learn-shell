@@ -30,3 +30,4 @@ x1="abc 123"
 file=1.txt
 touch $file
 cp $file 2.txt
+
