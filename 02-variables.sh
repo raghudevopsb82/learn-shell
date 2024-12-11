@@ -31,3 +31,27 @@ file=1.txt
 touch $file
 cp $file 2.txt
 
+# Dynamic declaration of variables
+
+# Command Substitution
+# Syntax: var=$(command)
+
+list_of_files=$(ls)
+
+echo $list_of_files
+
+# Arithmetic Substitution
+# Syntax: var=$((expression))
+add=$((2+3))
+
+
+
+
+
+
+
+
+
+
+
+
