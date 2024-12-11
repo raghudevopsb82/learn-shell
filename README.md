@@ -38,6 +38,9 @@ We can import functions and variables using `source` command. Meaning if we have
 command > output ( > symbol will redirect the ouptut of command to that output file)
 command < input ( < symbol will load the input from that file input)
 
+output is two types, output * error
+command &>output ( &> will redirect both output and error)
+
 #### Some random points.
 
     - In Shell function inside a function will work.
