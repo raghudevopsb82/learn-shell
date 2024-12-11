@@ -8,6 +8,7 @@
 # Call a function
 # sample
 
+source ./source-example-file.sh
 
 sample() {
   ls -l
@@ -15,3 +16,4 @@ sample() {
 }
 
 sample
+demo
