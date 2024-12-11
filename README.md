@@ -33,6 +33,11 @@ Here if the filename itself having a `*` character to denote that we are using q
 We can import functions and variables using `source` command. Meaning if we have a file with variables and functions declared then we can source that file and all those variables and functions will be inherited into this shell program what we are running.
 
 
+#### Redirectors 
+
+command > output ( > symbol will redirect the ouptut of command to that output file)
+command < input ( < symbol will load the input from that file input)
+
 #### Some random points.
 
     - In Shell function inside a function will work.
