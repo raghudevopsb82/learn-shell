@@ -27,12 +27,12 @@ echo exported variable name- $name
 
 ### Deal with functions
 sample() {
-  echo LHS Values a - $a , b - $b
+  echo LHS Values in function a - $a , b - $b
 
   # Example for RHS
-  echo RHS Values 1 - $1 , 2 - $2
-  echo "All Values - * - $*"
-  echo "No of Values # - $#"
+  echo RHS Values in function 1 - $1 , 2 - $2
+  echo "All Values in function - * - $*"
+  echo "No of Values in function # - $#"
 }
 
 a=9 b=10 sample
