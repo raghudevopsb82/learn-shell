@@ -45,3 +45,6 @@ command &>output ( &> will redirect both output and error)
 #### Some random points.
 
     - In Shell function inside a function will work.
+    - If there is a failure detected, mostly we will stop the script there only avoid further failures.
+
+
