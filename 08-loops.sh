@@ -6,3 +6,7 @@ while [ $i -gt 0 ]; do
 done
 
 # for loop - Loop based on Inputs
+for fruit in apple banana orange ; do
+  echo Fruit name - $fruit
+done
+
