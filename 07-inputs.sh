@@ -33,6 +33,10 @@ sample() {
   echo RHS Values in function 1 - $1 , 2 - $2
   echo "All Values in function - * - $*"
   echo "No of Values in function # - $#"
+
+  # For function we no need to export, just a declaration is fine - TO keep consistent understanding you can export
+  echo x - $x
 }
 
+export x=10 # simply x=10 is fine for functions as these are running in same script
 a=9 b=10 sample 900 1000
