@@ -41,6 +41,7 @@ command < input ( < symbol will load the input from that file input)
 output is two types, output * error
 command &>output ( &> will redirect both output and error)
 
+
 #### Some random points.
 
     - In Shell function inside a function will work.
