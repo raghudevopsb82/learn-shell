@@ -23,3 +23,16 @@ echo "No of Values # - $#"
 
 # Example for export
 echo exported variable name- $name
+
+
+### Deal with functions
+sample() {
+  echo LHS Values a - $a , b - $b
+
+  # Example for RHS
+  echo RHS Values 1 - $1 , 2 - $2
+  echo "All Values - * - $*"
+  echo "No of Values # - $#"
+}
+
+a=9 b=10 sample
