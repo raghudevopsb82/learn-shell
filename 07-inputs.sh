@@ -40,3 +40,11 @@ sample() {
 
 export x=10 # simply x=10 is fine for functions as these are running in same script
 a=9 b=10 sample 900 1000
+
+
+# LHS -
+# RHS - Script / Command arguments
+# export - Environment Variables
+
+
+
