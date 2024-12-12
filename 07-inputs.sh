@@ -16,3 +16,7 @@
 # Example for LHS
 echo LHS Values a - $a , b - $b
 
+# Example for RHS
+echo RHS Values 1 - $1 , 2 - $2
+echo "All Values - * - $*"
+echo "No of Values # - $#"
