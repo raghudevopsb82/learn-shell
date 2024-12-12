@@ -53,4 +53,16 @@ if [ "$x" -gt 0 ]; then
 fi
 
 
+## Case command will do only string comparision, that to be limited with whether two values are equal or not equal
+
+# case $var in
+#   some-x)
+#      commands ;;
+#   some-y)
+#      commands ;;
+#   * ) commands ;;
+# esac
+
+
+
 
